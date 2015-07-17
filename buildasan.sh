@@ -9,6 +9,7 @@ rm -f clang-3.2.src.tar.gz
 cd ..
 tar zxvf ../compiler-rt.tar.gz -C projects
 
+
 LLVM=/home/tongpingliu/projects/doubletake/llvm/llvm-3.2.src/
 #mkdir llvm_cmake_build 
 cd llvm_cmake_build
