@@ -1,5 +1,14 @@
 #!/bin/sh
 
+tar zxvf llvm-3.2.src.tar.gz
+cd llvm-3.2.src/tools/
+cp ../../clang-3.2.src.tar.gz ./
+tar zxvf clang-3.2.src.tar.gz 
+mv clang-3.2.src clang
+rm -f clang-3.2.src.tar.gz 
+cd ..
+tar zxvf ../compiler-rt.tar.gz -C projects
+
 LLVM=/home/tongpingliu/projects/doubletake/llvm/llvm-3.2.src/
 #mkdir llvm_cmake_build 
 cd llvm_cmake_build
