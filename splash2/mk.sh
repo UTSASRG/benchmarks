@@ -1,5 +1,6 @@
 #!/bin/bash
 
+
 APPS_DIR=$PWD
 if [ "$APPS_DIR" = "" ]; then
 	echo '$APPS_DIR not defined, do `export APPRS_DIR=`'
